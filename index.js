@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 
 
-var prefix = "/";
+var prefix = "?";
 
 
 bot.login(process.env.TOKEN);
@@ -11,7 +11,7 @@ bot.login(process.env.TOKEN);
 bot.on("ready", () => {
   console.log("Je suis prêt")
   
-bot.user.setActivity("[/mail] I SP®『🚫』1 servs", {type:"STREAMING"});    
+bot.user.setActivity("[?mail] I SP®『🚫』1 servs", {type:"STREAMING"});    
 });
 
 bot.on('message', message => { 
