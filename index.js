@@ -1,1 +1,1 @@
-bot.on("guildMemberAdd", =
+bot.on("guildMemberAdd", =>
